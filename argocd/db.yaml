@@ -2,6 +2,9 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: db-deployment
+  labels:
+    app: db
+    rekuberate.io/sleepcycle: sleepcycle-app-1
 spec:
   selector:
     matchLabels:
