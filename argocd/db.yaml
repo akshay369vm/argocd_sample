@@ -4,7 +4,7 @@ metadata:
   name: db-deployment
   labels:
     app: db
-    rekuberate.io/sleepcycle: sleepcycle-app-1
+    rekuberate.io/sleepcycle: sleepcycle
 spec:
   selector:
     matchLabels:
